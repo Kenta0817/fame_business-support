@@ -1,0 +1,326 @@
+@charset "UTF-8";
+@import url(../../fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+@media screen and (min-width: 1024px) {
+    /* Reset */
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    h5,
+    h6,
+    pre,
+    table,
+    code,
+    kbd,
+    samp,
+    acronym,
+    input,
+    textarea,
+    select {
+        font-size: 100%;
+    }
+    a,
+    ins {
+        text-decoration: none;
+    }
+    address,
+    em,
+    cite,
+    dfn,
+    var {
+        font-style: normal;
+    }
+    input,
+    textarea {
+        font-family: sans-serif;
+        font-weight: normal;
+    }
+    img {
+        vertical-align: bottom;
+    }
+    a img {
+        border: none;
+    }
+    a:hover img {
+        opacity: 0.5;
+        -webkit-opacity: 0.5;
+        -moz-opacity: 0.5;
+        filter: alpha(opacity=50);
+        /* IE lt 8 */
+        -ms-filter: "alpha(opacity=50)";
+        /* IE 8 */
+    }
+    a img {
+        -webkit-transition: opacity 0.3s ease-out;
+        -moz-transition: opacity 0.3s ease-out;
+        -ms-transition: opacity 0.3s ease-out;
+        transition: opacity 0.3s ease-out;
+    }
+    /* Setting */
+    html {
+        height: 100%;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    body {
+        height: 100%;
+        color: #333;
+        background: #fff;
+        font-family: 'Noto Sans Japanese', sans-serif, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    }
+    * html body {
+        /* for IE6 */
+        font-size: small;
+    }
+    *:first-child+html body {
+        /* for IE7 */
+        font-size: small;
+    }
+    ul {
+        list-style-position: outside;
+        list-style-type: none;
+    }
+    ol {
+        list-style-position: outside;
+    }
+    table {
+        border-collapse: collapse;
+    }
+    legend {
+        color: #333;
+    }
+    /* ---------------------------------------------------------------------
+set
+--------------------------------------------------------------------- */
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #333;
+        text-decoration: none;
+    }
+    .clearfix:after {
+        content: ".";
+        display: block;
+        height: 0.1px;
+        font-size: 0.1em;
+        line-height: 0;
+        clear: both;
+        visibility: hidden;
+        overflow: hidden;
+    }
+    .center {
+        text-align: center;
+    }
+    .right {
+        text-align: right;
+    }
+    .b {
+        font-weight: bold;
+    }
+    .red {
+        color: #ec1c24;
+    }
+    /* ---------------------------------------------------------------------
+contents
+--------------------------------------------------------------------- */
+    #main {
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    #header {
+        width: 100%;
+        /* height: 760px; */
+        background: #e54a5c;
+    }
+    .area {
+        position: relative;
+    }
+    .header {
+        /* width: 1000px;
+        margin: 0 auto; */
+        text-align: center;
+    }
+    .h01 {
+        position: absolute;
+        top: 80px;
+        left: 200px;
+    }
+    .h02 {
+        position: absolute;
+        bottom: 90px;
+        left: 10px;
+    }
+    .sec01 {
+        text-align: center;
+        background: #ffd200;
+    }
+    .sec02 {
+        text-align: center;
+        padding: 40px 0;
+    }
+    .sec06 {
+        text-align: center;
+    }
+    .sec03,
+    .sec08 {
+        text-align: center;
+        /* background: #e54a5c; */
+        /* padding: 40px 0; */
+        /* margin: 150px auto 0; */
+    }
+    .f01 {
+        text-align: center;
+        padding: 40px 0;
+    }
+    .f02 {
+        text-align: center;
+        margin: 20px auto 50px;
+        /* -webkit-animation: blink 0.8s ease-in-out infinite alternate;
+        -moz-animation: blink 0.8s ease-in-out infinite alternate;
+        animation: blink 0.8s ease-in-out infinite alternate; */
+    }
+    .four_item {
+        margin: 50px auto 50px;
+    }
+    @-webkit-keyframes blink {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @-moz-keyframes blink {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes blink {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    .btn {
+        text-align: center;
+        /* padding: 40px 0 0; */
+    }
+    .f03 {
+        text-align: center;
+        /* padding: 10px 0 0; */
+    }
+    .f-bg {
+        background: url("../images/f-bg_001.svg") repeat-x bottom;
+        padding-bottom: 420px;
+    }
+    .sec04 {
+        text-align: center;
+        background: #a8d16b;
+        padding: 100px 0;
+    }
+    .sec05 {
+        text-align: center;
+        background: #ffd202;
+    }
+    .sec07 {
+        text-align: center;
+        /* background: #3ca6cd; */
+        padding: 30px 0;
+        position: relative;
+        margin-bottom: 50px;
+    }
+    /* .sec07:after {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        content: '';
+        width: 0;
+        height: 0;
+        border: 40px solid transparent;
+        border-top: 26px solid #3ca6cd;
+    } */
+    .step {
+        text-align: center;
+        padding: 100px 0 50px;
+    }
+    .point {
+        text-align: center;
+        padding: 40px 0 80px;
+    }
+    .sec09 {
+        text-align: center;
+        padding: 100px 0 20px;
+    }
+    #head {
+        text-align: center;
+        padding: 20px 0;
+    }
+    #head img {
+        width: 1000px;
+    }
+    .contents {
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .title {
+        width: 100%;
+        background: #009688;
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 60px;
+        padding: 20px 0;
+        margin-bottom: 50px;
+    }
+    .low-title {
+        margin: 90px 0 40px;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 900;
+        color: #ff3399;
+        border-bottom: 5px solid #ff3399;
+    }
+    .low-text-box {
+        text-align: left;
+        line-height: 2em;
+        margin-bottom: 200px;
+    }
+    .low-text-box2 {
+        text-align: left;
+        line-height: 2em;
+        margin-bottom: 50px;
+    }
+    .low-text-box p,
+    .low-text-box2 p {
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+    .low-sub-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    /* ---------------------------------------------------------------------
+Footer
+--------------------------------------------------------------------- */
+    #footer {
+        background: #333;
+        padding: 30px 0;
+        text-align: center;
+        color: #fff;
+    }
+    address {
+        margin: 0px auto;
+        padding: 10px 0;
+    }
+}

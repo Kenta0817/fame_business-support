@@ -1,0 +1,321 @@
+@charset "utf-8";
+@media screen and (max-width: 1023px) {
+    /* Init tags
+================================================*/
+    /*--- reset */
+    * {
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        vertical-align: baseline;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        margin: 0;
+    }
+    address,
+    em,
+    cite,
+    dfn,
+    var {
+        font-style: normal;
+    }
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section {
+        display: block;
+    }
+    hr {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid #cccccc;
+        margin: 1em 0;
+        padding: 0;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    li {
+        padding: 0;
+    }
+    table {
+        border-collapse: collapse;
+    }
+    table th {
+        vertical-align: top;
+    }
+    input,
+    select {
+        vertical-align: middle;
+    }
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+    a {
+        -webkit-tap-highlight-color: transparent;
+    }
+    a:hover {
+        color: #333;
+        text-decoration: none;
+    }
+    a img {
+        border-style: none;
+    }
+    html,
+    body {
+        -webkit-text-size-adjust: none;
+    }
+    body {
+        margin: 0;
+        width: 100%;
+        color: #333;
+        font: 14px/20px 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', Verdana, Arial, sans-serif;
+    }
+    .center {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .right {
+        text-align: right;
+    }
+    img {
+        height: auto;
+        max-width: 100%;
+        vertical-align: bottom;
+    }
+    .clearfix:after {
+        content: ".";
+        display: block;
+        height: 0.1px;
+        font-size: 0.1em;
+        line-height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+    /* ---------------------------------------------------------------------
+contents
+--------------------------------------------------------------------- */
+    #main {
+        margin: 0;
+        overflow: hidden;
+    }
+    #header {
+        width: 100%;
+        background: #e54a5c;
+    }
+    .area {
+        position: relative;
+    }
+    .header {
+        margin: 0 auto;
+    }
+    .h01 {
+        position: absolute;
+        top: 11%;
+        left: 22%;
+        width: 30%;
+    }
+    .h02 {
+        position: absolute;
+        bottom: 5%;
+        left: 1%;
+        width: 56%;
+    }
+    .sec01 {
+        text-align: center;
+        background: #ffd200;
+    }
+    .sec02 {
+        text-align: center;
+        padding: 20px 0;
+    }
+    .sec06 {
+        text-align: center;
+    }
+    .sec03,
+    .sec08 {
+        /* background: #e54a5c; */
+        padding: 0 0 20px;
+        /* margin: 60px 0 0; */
+    }
+    .f01 {
+        text-align: center;
+        padding: 20px 0;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .f02 {
+        text-align: center;
+        /* width: 40%; */
+        margin: 0 auto;
+        /* -webkit-animation: blink 0.8s ease-in-out infinite alternate; */
+        -moz-animation: blink 0.8s ease-in-out infinite alternate;
+        /* animation: blink 0.8s ease-in-out infinite alternate; */
+        /* margin: 0 0 50px; */
+    }
+    .four_item {
+        margin: 10px auto 10px;
+    }
+    @-webkit-keyframes blink {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @-moz-keyframes blink {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes blink {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    .btn {
+        text-align: center;
+        padding: 20px 0;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .f03 {
+        text-align: center;
+        padding: 10px 0 0;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .f-bg {
+        background: url("../images/f-bg_001.svg") repeat-x bottom;
+        background-size: 500px auto;
+        padding-bottom: 100px;
+    }
+    .sec04 {
+        text-align: center;
+        background: #a8d16b;
+        padding: 30px 0;
+    }
+    .sec05 {
+        text-align: center;
+        background: #b5dbe8;
+    }
+    .sec07 {
+        text-align: center;
+        /* background: #3ca6cd; */
+        padding: 20px 0;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    /* .sec07:after {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        content: '';
+        width: 0;
+        height: 0;
+        border: 40px solid transparent;
+        border-top: 26px solid #3ca6cd;
+    } */
+    .step {
+        text-align: center;
+        padding: 50px 0 0;
+    }
+    .point {
+        text-align: center;
+        padding: 20px 0 40px;
+    }
+    .sec09 {
+        text-align: center;
+        padding: 150px 0;
+    }
+    #head {
+        text-align: center;
+        padding: 10px 0;
+    }
+    #head img {
+        width: 60%;
+    }
+    .contents {
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .title {
+        width: 100%;
+        background: #e54a5c;
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.4rem;
+        padding: 10px 0;
+        margin-bottom: 30px;
+    }
+    .low-title {
+        margin: 45px 0 20px;
+        padding-bottom: 5px;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 900;
+        color: #ff3399;
+        border-bottom: 2px solid #ff3399;
+    }
+    .low-text-box {
+        text-align: left;
+        line-height: 2em;
+        padding: 0 10px;
+        margin-bottom: 100px;
+    }
+    .low-text-box2 {
+        text-align: left;
+        line-height: 2em;
+        padding: 0 10px;
+        margin-bottom: 30px;
+    }
+    .low-text-box p,
+    .low-text-box2 p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+    .low-sub-title {
+        font-size: 1.15rem;
+        font-weight: bold;
+    }
+    /* ---------------------------------------------------------------------
+Footer
+--------------------------------------------------------------------- */
+    #footer {
+        background: #a8d16b;
+        padding: 15px 0;
+        text-align: center;
+        color: #fff;
+        font-size: 14px;
+    }
+    address {
+        margin: 0px auto;
+        padding: 10px 0;
+    }
+}

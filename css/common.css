@@ -1556,6 +1556,10 @@ footer .f_txt span {
     background-color: #009688;
 }
 
+.privacy {
+    color: #ffffff;
+}
+
 @media only screen and (max-width: 1247px) {
     .girl_001 {
         display: none;
