@@ -84,13 +84,13 @@
         background: none !important;
     }
     .ttlbox {
-        background: none !important;
+        /* background: none !important; */
     }
     .invisible {
         display: none;
     }
     .dummy {
-        height: 16vw;
+        height: auto;
     }
     /* cv コンバージョンエリア
 	-----------------------------------------------------*/

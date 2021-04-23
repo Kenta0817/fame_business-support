@@ -459,7 +459,7 @@ main {
 }
 
 #sec09 {
-    background: #fff0d7;
+    /* background: #fff0d7; */
 }
 
 #sec11 {
@@ -897,7 +897,7 @@ main {
 
 #faq {
     padding-top: 70px;
-    background: #fff0d7;
+    /* background: #FF9123; */
 }
 
 #faq .ttlbox {
@@ -1540,14 +1540,30 @@ footer .f_txt span {
 
 .mv-sub {
     background-color: #009688;
-    padding: 10vw 0 2vw;
+    padding: 2vw 0 2vw;
 }
 
 .mv-sub_001 {
     background-color: #4974A5;
-    padding: 8vw 0 88px;
+    padding: 5vw 0 5vw;
 }
 
 #sec03 .inner {
     background-color: #FFE5AE;
+}
+
+.sub_contents {
+    background-color: #009688;
+}
+
+@media only screen and (max-width: 1247px) {
+    .girl_001 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .dummy {
+        display: none;
+    }
 }
