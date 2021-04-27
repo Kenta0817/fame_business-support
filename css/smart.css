@@ -87,7 +87,7 @@
         /* background: none !important; */
     }
     .invisible {
-        /* display: none; */
+        display: none;
     }
     .dummy {
         height: auto;

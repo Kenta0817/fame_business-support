@@ -1570,4 +1570,7 @@ footer .f_txt span {
     .dummy {
         display: none;
     }
+    .invisible_mobile {
+        display: none;
+    }
 }
